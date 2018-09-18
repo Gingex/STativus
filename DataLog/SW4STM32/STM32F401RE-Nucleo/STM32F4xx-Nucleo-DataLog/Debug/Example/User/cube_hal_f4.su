@@ -1,0 +1,4 @@
+cube_hal_f4.c:56:6:SystemClock_Config	104	static
+cube_hal_f4.c:96:10:Get_DMA_Flag_Status	0	static
+cube_hal_f4.c:106:10:Get_DMA_Counter	0	static
+cube_hal_f4.c:116:6:Config_DMA_Handler	16	static

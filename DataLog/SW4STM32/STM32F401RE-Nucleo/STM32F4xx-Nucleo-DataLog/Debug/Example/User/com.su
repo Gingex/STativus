@@ -1,0 +1,4 @@
+com.c:68:5:UART_ReceivedMSG	48	static
+com.c:146:6:UART_SendMsg	16	static
+com.c:162:6:USART_DMA_Configuration	8	static
+com.c:177:6:USARTConfig	64	static

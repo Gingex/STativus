@@ -1,0 +1,17 @@
+x_nucleo_iks01a2_humidity.c:99:18:BSP_HUMIDITY_Init	24	static
+x_nucleo_iks01a2_humidity.c:189:18:BSP_HUMIDITY_DeInit	16	static
+x_nucleo_iks01a2_humidity.c:227:18:BSP_HUMIDITY_Sensor_Enable	8	static
+x_nucleo_iks01a2_humidity.c:261:18:BSP_HUMIDITY_Sensor_Disable	8	static
+x_nucleo_iks01a2_humidity.c:295:18:BSP_HUMIDITY_IsInitialized	0	static
+x_nucleo_iks01a2_humidity.c:322:18:BSP_HUMIDITY_IsEnabled	0	static
+x_nucleo_iks01a2_humidity.c:349:18:BSP_HUMIDITY_IsCombo	0	static
+x_nucleo_iks01a2_humidity.c:376:18:BSP_HUMIDITY_Get_Instance	0	static
+x_nucleo_iks01a2_humidity.c:404:18:BSP_HUMIDITY_Get_WhoAmI	8	static
+x_nucleo_iks01a2_humidity.c:441:18:BSP_HUMIDITY_Check_WhoAmI	8	static
+x_nucleo_iks01a2_humidity.c:475:18:BSP_HUMIDITY_Get_Hum	8	static
+x_nucleo_iks01a2_humidity.c:513:18:BSP_HUMIDITY_Get_ODR	8	static
+x_nucleo_iks01a2_humidity.c:551:18:BSP_HUMIDITY_Set_ODR	8	static
+x_nucleo_iks01a2_humidity.c:585:18:BSP_HUMIDITY_Set_ODR_Value	8	static
+x_nucleo_iks01a2_humidity.c:619:18:BSP_HUMIDITY_Read_Reg	8	static
+x_nucleo_iks01a2_humidity.c:660:18:BSP_HUMIDITY_Write_Reg	8	static
+x_nucleo_iks01a2_humidity.c:695:18:BSP_HUMIDITY_Get_DRDY_Status	8	static
