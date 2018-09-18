@@ -1,0 +1,13 @@
+sensor_commands.c:123:5:SC_Get_Sensor_Name	32	static
+sensor_commands.c:214:5:SC_Read_Register	16	static
+sensor_commands.c:256:5:SC_Write_Register	8	static
+sensor_commands.c:295:5:SC_Get_Full_Scale_List	32	static
+sensor_commands.c:386:5:SC_Set_Full_Scale	16	static
+sensor_commands.c:428:5:SC_Get_ODR_List	24	static
+sensor_commands.c:519:5:SC_Set_ODR	16	static
+sensor_commands.c:92:5:Handle_Sensor_command	16	static
+sensor_commands.c:561:6:Send_Sensor_Name	24	static
+sensor_commands.c:576:6:Send_Sensor_FS_List	24	static
+sensor_commands.c:592:6:Send_Sensor_ODR_List	16	static
+sensor_commands.c:608:6:FloatToArray	0	static
+sensor_commands.c:613:6:ArrayToFloat	0	static
