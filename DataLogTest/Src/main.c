@@ -130,7 +130,7 @@ void user_pwm_setvalue(uint16_t value);
 int main(void)
 {
   TMsg Msg;
-
+  float tempMine;
   /* STM32F4xx HAL library initialization:
   - Configure the Flash prefetch, instruction and Data caches
   - Configure the Systick to generate an interrupt each 1 msec
@@ -237,11 +237,10 @@ int main(void)
     {
       //HAL_Delay(500);
     }
-    if(GYR_Value.AXIS_X>2000)
-    	user_pwm_setvalue(25);
-    else
-    	user_pwm_setvalue(125);
+   tempMine =  ACC_Value.AXIS_X*50/2000+75;
+   user_pwm_setvalue( (int) tempMine);
   }
+
 }
 
 /**
