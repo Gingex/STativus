@@ -1,0 +1,5 @@
+DemoSerial.c:75:6:BUILD_REPLY_HEADER	0	static
+DemoSerial.c:87:6:BUILD_NACK_HEADER	0	static
+DemoSerial.c:99:6:INIT_STREAMING_HEADER	0	static
+DemoSerial.c:112:6:INIT_STREAMING_MSG	8	static
+DemoSerial.c:132:5:HandleMSG	24	static
