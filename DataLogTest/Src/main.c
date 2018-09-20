@@ -54,6 +54,17 @@
   * @{
   */
 
+
+#define KP_X 1
+#define KP_Y 1
+#define KI_X 1
+#define KI_Y 1
+#define KD_X 1
+#define KD_Y 1
+#define INT_MAX 1
+#define INT_MIN 1
+
+
 typedef struct displayFloatToInt_s {
   int8_t sign; /* 0 means positive, 1 means negative*/
   uint32_t  out_int;
@@ -116,7 +127,13 @@ static void MX_TIM3_Init(void);
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 void user_pwm_tim4_setvalue(uint16_t value);
 void user_pwm_tim3_setvalue(uint16_t value);
+int PIDcontrol_X(int32_t accvalue, float* integral,TMsg* Msg);
+int PIDcontrol_Y(int32_t accvalue, float* integral,TMsg* Msg);
 /* Private functions ---------------------------------------------------------*/
+
+
+
+
 /**
  * @brief  Main function is to show how to use X_NUCLEO_IKS01A2 expansion board to send data from a Nucleo board
  *         using UART to a connected PC or Desktop and display it on generic applications like
@@ -133,7 +150,9 @@ void user_pwm_tim3_setvalue(uint16_t value);
 int main(void)
 {
   TMsg Msg;
-  float tempMine;
+  //float tempMine;
+  float integral_x = 0;
+  float integral_y = 0;
   /* STM32F4xx HAL library initialization:
   - Configure the Flash prefetch, instruction and Data caches
   - Configure the Systick to generate an interrupt each 1 msec
@@ -165,8 +184,8 @@ int main(void)
   MX_TIM3_Init();
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim3, TIM_CHANNEL_1);
-  user_pwm_tim4_setvalue(25);
-  user_pwm_tim3_setvalue(25);
+  //user_pwm_tim4_setvalue(25);
+  //user_pwm_tim3_setvalue(25);
 
   while(1)
   {
@@ -190,7 +209,7 @@ int main(void)
     }
 
     RTC_Handler(&Msg);
-
+/*
     if (Sensors_Enabled & PRESSURE_SENSOR)
     {
       Pressure_Sensor_Handler(&Msg);
@@ -203,11 +222,12 @@ int main(void)
     {
       Temperature_Sensor_Handler(&Msg);
     }
+*/
     if (Sensors_Enabled & ACCELEROMETER_SENSOR)
     {
       Accelero_Sensor_Handler(&Msg);
     }
-    if (Sensors_Enabled & GYROSCOPE_SENSOR)
+/*    if (Sensors_Enabled & GYROSCOPE_SENSOR)
     {
       Gyro_Sensor_Handler(&Msg);
     }
@@ -215,7 +235,7 @@ int main(void)
     {
       Magneto_Sensor_Handler(&Msg);
     }
-
+*/
     if ( DataLoggerActive || AutoInit )
     {
       BSP_LED_Toggle(LED2);
@@ -243,13 +263,112 @@ int main(void)
     {
       //HAL_Delay(500);
     }
-   tempMine =  ACC_Value.AXIS_X*50/2000+75;
+   /*tempMine =  ACC_Value.AXIS_X*50/2000+75;
    user_pwm_tim4_setvalue( (int) tempMine);
    tempMine =  ACC_Value.AXIS_Y*50/2000+75;
    user_pwm_tim3_setvalue( (int) tempMine);
+   */
+   user_pwm_tim4_setvalue(PIDcontrol_X(ACC_Value.AXIS_X,&integral_x,&Msg));
+   user_pwm_tim3_setvalue(PIDcontrol_Y(ACC_Value.AXIS_Y,&integral_y,&Msg));
+
   }
 
 }
+
+
+
+int PIDcontrol_X(int32_t accvalue, float* integral,TMsg* Msg){     //deve riportarsi a zero, quindi l'errore è data dal valore d'ingresso
+	float prop, derivate, ContrValue;
+
+	if (Sensors_Enabled & ACCELEROMETER_SENSOR)
+	    {
+	      Accelero_Sensor_Handler(Msg);
+	    }
+
+	prop = KP_X * (float)ACC_Value.AXIS_X;
+	*integral = KI_X * ((*integral) + (float)ACC_Value.AXIS_X);
+	if (*integral > INT_MAX){
+		*integral = INT_MAX;
+	}
+	if (*integral < INT_MIN){
+		*integral = INT_MIN;
+	}
+	derivate = KD_X * ((float)ACC_Value.AXIS_X - accvalue);
+	ContrValue = prop + *integral + derivate;
+	//relazione per convertire gradi in pwm
+	return (int)ContrValue;
+}
+
+
+int PIDcontrol_Y(int32_t accvalue, float* integral,TMsg* Msg){     //deve riportarsi a zero, quindi l'errore è data dal valore d'ingresso
+	float prop, derivate,ContrValue;
+
+	if (Sensors_Enabled & ACCELEROMETER_SENSOR)
+	    {
+	      Accelero_Sensor_Handler(Msg);
+	    }
+
+	prop = KP_Y * (float)ACC_Value.AXIS_Y;
+	*integral = KI_Y * ((*integral) + (float)ACC_Value.AXIS_Y);
+	if (*integral > INT_MAX){
+		*integral = INT_MAX;
+	}
+	if (*integral < INT_MIN){
+		*integral = INT_MIN;
+	}
+	derivate = KD_Y * ((float)ACC_Value.AXIS_Y - accvalue);
+	ContrValue = prop + *integral + derivate;
+	//relazione per convertire gradi in pwm
+	return (int)ContrValue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  * @brief  Initialize all sensors
