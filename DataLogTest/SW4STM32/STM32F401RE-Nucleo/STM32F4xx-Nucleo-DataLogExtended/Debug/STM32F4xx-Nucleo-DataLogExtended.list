@@ -23,11 +23,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   9 .ARM.attributes 00000030  00000000  00000000  00020580  2**0
                   CONTENTS, READONLY
- 10 .debug_info   0006f53f  00000000  00000000  000205b0  2**0
+ 10 .debug_info   0006f542  00000000  00000000  000205b0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_abbrev 00007347  00000000  00000000  0008faef  2**0
+ 11 .debug_abbrev 00007347  00000000  00000000  0008faf2  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    0004ffab  00000000  00000000  00096e36  2**0
+ 12 .debug_loc    0004ffab  00000000  00000000  00096e39  2**0
                   CONTENTS, READONLY, DEBUGGING
  13 .debug_aranges 000030a8  00000000  00000000  000e6de8  2**3
                   CONTENTS, READONLY, DEBUGGING
@@ -37,9 +37,9 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
  16 .debug_line   00024085  00000000  00000000  00117471  2**0
                   CONTENTS, READONLY, DEBUGGING
- 17 .debug_str    000af0cb  00000000  00000000  0013b4f6  2**0
+ 17 .debug_str    000af0cc  00000000  00000000  0013b4f6  2**0
                   CONTENTS, READONLY, DEBUGGING
- 18 .comment      0000007c  00000000  00000000  001ea5c1  2**0
+ 18 .comment      0000007c  00000000  00000000  001ea5c2  2**0
                   CONTENTS, READONLY
  19 .debug_frame  0000bbe4  00000000  00000000  001ea640  2**2
                   CONTENTS, READONLY, DEBUGGING
@@ -29991,11 +29991,11 @@ HAL_StatusTypeDef HAL_TIM_PWM_ConfigChannel(TIM_HandleTypeDef *htim, TIM_OC_Init
  800b0fc:	f8df 9064 	ldr.w	r9, [pc, #100]	; 800b164 <main+0x278>
  800b100:	f042 0201 	orr.w	r2, r2, #1
  800b104:	601a      	str	r2, [r3, #0]
-  user_pwm_tim4_setvalue(25);
- 800b106:	2019      	movs	r0, #25
+  user_pwm_tim4_setvalue(75);
+ 800b106:	204b      	movs	r0, #75	; 0x4b
  800b108:	f7ff fdda 	bl	800acc0 <user_pwm_tim4_setvalue>
-  user_pwm_tim3_setvalue(25);
- 800b10c:	2019      	movs	r0, #25
+  user_pwm_tim3_setvalue(75);
+ 800b10c:	204b      	movs	r0, #75	; 0x4b
  800b10e:	f7ff fe31 	bl	800ad74 <user_pwm_tim3_setvalue>
  800b112:	e0c7      	b.n	800b2a4 <main+0x3b8>
  800b114:	20000740 	.word	0x20000740

@@ -3796,7 +3796,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x287 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
  .debug_macro   0x00000000      0x12d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
  .debug_line    0x00000000      0xa8d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
- .debug_str     0x00000000    0x8f205 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
+ .debug_str     0x00000000    0x8f206 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
  .comment       0x00000000       0x7d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
  .debug_frame   0x00000000       0x8c Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o
  .ARM.attributes
@@ -3976,7 +3976,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x287 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
  .debug_macro   0x00000000      0x12d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
  .debug_line    0x00000000      0xa69 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
- .debug_str     0x00000000    0x8f209 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
+ .debug_str     0x00000000    0x8f20a Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
  .comment       0x00000000       0x7d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
  .debug_frame   0x00000000      0x148 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o
  .ARM.attributes
@@ -4151,7 +4151,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x287 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
  .debug_macro   0x00000000      0x12d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
  .debug_line    0x00000000      0xa62 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
- .debug_str     0x00000000    0x8f332 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
+ .debug_str     0x00000000    0x8f333 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
  .comment       0x00000000       0x7d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
  .debug_frame   0x00000000       0xfc Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o
  .ARM.attributes
@@ -4681,7 +4681,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x287 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
  .debug_macro   0x00000000      0x12d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
  .debug_line    0x00000000      0x812 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
- .debug_str     0x00000000    0x8f401 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
+ .debug_str     0x00000000    0x8f402 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
  .comment       0x00000000       0x7d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
  .debug_frame   0x00000000       0x48 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o
  .ARM.attributes
@@ -5384,7 +5384,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x287 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
  .debug_macro   0x00000000      0x12d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
  .debug_line    0x00000000     0x1187 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
- .debug_str     0x00000000    0x8f73f Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
+ .debug_str     0x00000000    0x8f740 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
  .comment       0x00000000       0x7d Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
  .debug_frame   0x00000000      0x3f8 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o
  .ARM.attributes
@@ -9551,7 +9551,7 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../l
                 0x0000103b       0x22 c:/program files (x86)/atollic/truestudio for stm32 9.0.1/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
 OUTPUT(STM32F4xx-Nucleo-DataLogExtended.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x6f53f
+.debug_info     0x00000000    0x6f542
  .debug_info    0x00000000     0x3265 Drivers\BSP\Components\HTS221_Driver.o
  .debug_info    0x00003265     0x1cc0 Drivers\BSP\Components\HTS221_Driver_HL.o
  .debug_info    0x00004f25     0x5969 Drivers\BSP\Components\LPS22HB_Driver.o
@@ -9580,16 +9580,16 @@ OUTPUT(STM32F4xx-Nucleo-DataLogExtended.elf elf32-littlearm)
  .debug_info    0x000535f2      0xeb6 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc_ex.o
  .debug_info    0x000544a8     0x1acf Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc.o
  .debug_info    0x00055f77     0x1f95 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_uart.o
- .debug_info    0x00057f0c       0xb9 Example\SW4STM32\startup_stm32f401xe.o
- .debug_info    0x00057fc5     0x1d97 Example\User\DemoSerial.o
- .debug_info    0x00059d5c     0x254b Example\User\com.o
- .debug_info    0x0005c2a7     0x1cea Example\User\cube_hal_f4.o
- .debug_info    0x0005df91     0x8a25 Example\User\main.o
- .debug_info    0x000669b6     0x322f Example\User\sensor_commands.o
- .debug_info    0x00069be5      0x44c Example\User\serial_protocol.o
- .debug_info    0x0006a031     0x2afa Example\User\stm32f4xx_hal_msp.o
- .debug_info    0x0006cb2b     0x1a2f Example\User\stm32f4xx_it.o
- .debug_info    0x0006e55a      0xfe5 Example\User\syscalls.o
+ .debug_info    0x00057f0c       0xba Example\SW4STM32\startup_stm32f401xe.o
+ .debug_info    0x00057fc6     0x1d97 Example\User\DemoSerial.o
+ .debug_info    0x00059d5d     0x254b Example\User\com.o
+ .debug_info    0x0005c2a8     0x1cea Example\User\cube_hal_f4.o
+ .debug_info    0x0005df92     0x8a27 Example\User\main.o
+ .debug_info    0x000669b9     0x322f Example\User\sensor_commands.o
+ .debug_info    0x00069be8      0x44c Example\User\serial_protocol.o
+ .debug_info    0x0006a034     0x2afa Example\User\stm32f4xx_hal_msp.o
+ .debug_info    0x0006cb2e     0x1a2f Example\User\stm32f4xx_it.o
+ .debug_info    0x0006e55d      0xfe5 Example\User\syscalls.o
 
 .debug_abbrev   0x00000000     0x7347
  .debug_abbrev  0x00000000      0x360 Drivers\BSP\Components\HTS221_Driver.o
@@ -9997,81 +9997,81 @@ OUTPUT(STM32F4xx-Nucleo-DataLogExtended.elf elf32-littlearm)
  .debug_line    0x00022ed3      0xc29 Example\User\stm32f4xx_it.o
  .debug_line    0x00023afc      0x589 Example\User\syscalls.o
 
-.debug_str      0x00000000    0xaf0cb
- .debug_str     0x00000000     0x88ca Drivers\BSP\Components\HTS221_Driver.o
-                               0x8ba8 (size before relaxing)
- .debug_str     0x000088ca      0xebd Drivers\BSP\Components\HTS221_Driver_HL.o
-                               0x84a6 (size before relaxing)
- .debug_str     0x00009787     0x2052 Drivers\BSP\Components\LPS22HB_Driver.o
-                               0x561d (size before relaxing)
- .debug_str     0x0000b7d9      0x6bd Drivers\BSP\Components\LPS22HB_Driver_HL.o
-                               0x9400 (size before relaxing)
- .debug_str     0x0000be96     0x42fc Drivers\BSP\Components\LSM303AGR_ACC_driver.o
-                               0x77af (size before relaxing)
- .debug_str     0x00010192      0x804 Drivers\BSP\Components\LSM303AGR_ACC_driver_HL.o
-                               0x9305 (size before relaxing)
- .debug_str     0x00010996     0x1bbb Drivers\BSP\Components\LSM303AGR_MAG_driver.o
-                               0x5114 (size before relaxing)
- .debug_str     0x00012551      0x2d0 Drivers\BSP\Components\LSM303AGR_MAG_driver_HL.o
-                               0x831b (size before relaxing)
- .debug_str     0x00012821     0x96ac Drivers\BSP\Components\LSM6DSL_ACC_GYRO_driver.o
-                               0xcc16 (size before relaxing)
- .debug_str     0x0001becd     0x142c Drivers\BSP\Components\LSM6DSL_ACC_GYRO_driver_HL.o
-                               0xdf90 (size before relaxing)
- .debug_str     0x0001d2f9    0x89021 Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.o
-                              0x90b2e (size before relaxing)
- .debug_str     0x000a631a      0xf05 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2.o
-                              0x9072e (size before relaxing)
- .debug_str     0x000a721f      0xba3 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_accelero.o
-                              0x9554c (size before relaxing)
- .debug_str     0x000a7dc2      0x4bb Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_gyro.o
-                              0x939c2 (size before relaxing)
- .debug_str     0x000a827d      0x29e Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_humidity.o
-                              0x90aa8 (size before relaxing)
- .debug_str     0x000a851b      0x302 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_magneto.o
-                              0x909d7 (size before relaxing)
- .debug_str     0x000a881d      0x42c Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_pressure.o
-                              0x91661 (size before relaxing)
- .debug_str     0x000a8c49      0x4ce Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_temperature.o
-                              0x922f5 (size before relaxing)
- .debug_str     0x000a9117       0xc8 Drivers\CMSIS\system_stm32f4xx.o
-                              0x8f006 (size before relaxing)
- .debug_str     0x000a91df      0x618 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal.o
-                              0x8fa22 (size before relaxing)
- .debug_str     0x000a97f7      0x341 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_cortex.o
-                              0x8f752 (size before relaxing)
- .debug_str     0x000a9b38      0x32a Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma.o
-                              0x8f429 (size before relaxing)
- .debug_str     0x000a9e62      0x1d0 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_gpio.o
-                              0x8f259 (size before relaxing)
- .debug_str     0x000aa032      0xa34 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c.o
-                              0x8fe52 (size before relaxing)
- .debug_str     0x000aaa66      0x35b Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc.o
-                              0x8f423 (size before relaxing)
- .debug_str     0x000aadc1      0x1a2 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc_ex.o
-                              0x8f179 (size before relaxing)
- .debug_str     0x000aaf63      0x4b6 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc.o
-                              0x8f3df (size before relaxing)
- .debug_str     0x000ab419      0x68a Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_uart.o
-                              0x8f88c (size before relaxing)
- .debug_str     0x000abaa3      0x8ff Example\User\DemoSerial.o
-                              0x988b8 (size before relaxing)
- .debug_str     0x000ac3a2      0x133 Example\User\com.o
-                              0x98ae1 (size before relaxing)
- .debug_str     0x000ac4d5       0x4b Example\User\cube_hal_f4.o
-                              0x9866b (size before relaxing)
- .debug_str     0x000ac520     0x1678 Example\User\main.o
-                              0x9b9ae (size before relaxing)
- .debug_str     0x000adb98      0x23f Example\User\sensor_commands.o
-                              0x98d86 (size before relaxing)
- .debug_str     0x000addd7       0x60 Example\User\serial_protocol.o
-                               0x361f (size before relaxing)
- .debug_str     0x000ade37       0x41 Example\User\stm32f4xx_hal_msp.o
-                              0x98ee1 (size before relaxing)
- .debug_str     0x000ade78       0xa0 Example\User\stm32f4xx_it.o
-                              0x98231 (size before relaxing)
- .debug_str     0x000adf18     0x11b3 Example\User\syscalls.o
-                               0x813e (size before relaxing)
+.debug_str      0x00000000    0xaf0cc
+ .debug_str     0x00000000     0x88cb Drivers\BSP\Components\HTS221_Driver.o
+                               0x8ba9 (size before relaxing)
+ .debug_str     0x000088cb      0xebd Drivers\BSP\Components\HTS221_Driver_HL.o
+                               0x84a7 (size before relaxing)
+ .debug_str     0x00009788     0x2052 Drivers\BSP\Components\LPS22HB_Driver.o
+                               0x561e (size before relaxing)
+ .debug_str     0x0000b7da      0x6bd Drivers\BSP\Components\LPS22HB_Driver_HL.o
+                               0x9401 (size before relaxing)
+ .debug_str     0x0000be97     0x42fc Drivers\BSP\Components\LSM303AGR_ACC_driver.o
+                               0x77b0 (size before relaxing)
+ .debug_str     0x00010193      0x804 Drivers\BSP\Components\LSM303AGR_ACC_driver_HL.o
+                               0x9306 (size before relaxing)
+ .debug_str     0x00010997     0x1bbb Drivers\BSP\Components\LSM303AGR_MAG_driver.o
+                               0x5115 (size before relaxing)
+ .debug_str     0x00012552      0x2d0 Drivers\BSP\Components\LSM303AGR_MAG_driver_HL.o
+                               0x831c (size before relaxing)
+ .debug_str     0x00012822     0x96ac Drivers\BSP\Components\LSM6DSL_ACC_GYRO_driver.o
+                               0xcc17 (size before relaxing)
+ .debug_str     0x0001bece     0x142c Drivers\BSP\Components\LSM6DSL_ACC_GYRO_driver_HL.o
+                               0xdf91 (size before relaxing)
+ .debug_str     0x0001d2fa    0x89021 Drivers\BSP\STM32F4xx-Nucleo\stm32f4xx_nucleo.o
+                              0x90b2f (size before relaxing)
+ .debug_str     0x000a631b      0xf05 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2.o
+                              0x9072f (size before relaxing)
+ .debug_str     0x000a7220      0xba3 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_accelero.o
+                              0x9554d (size before relaxing)
+ .debug_str     0x000a7dc3      0x4bb Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_gyro.o
+                              0x939c3 (size before relaxing)
+ .debug_str     0x000a827e      0x29e Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_humidity.o
+                              0x90aa9 (size before relaxing)
+ .debug_str     0x000a851c      0x302 Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_magneto.o
+                              0x909d8 (size before relaxing)
+ .debug_str     0x000a881e      0x42c Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_pressure.o
+                              0x91662 (size before relaxing)
+ .debug_str     0x000a8c4a      0x4ce Drivers\BSP\X_NUCLEO_IKS01A2\x_nucleo_iks01a2_temperature.o
+                              0x922f6 (size before relaxing)
+ .debug_str     0x000a9118       0xc8 Drivers\CMSIS\system_stm32f4xx.o
+                              0x8f007 (size before relaxing)
+ .debug_str     0x000a91e0      0x618 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal.o
+                              0x8fa23 (size before relaxing)
+ .debug_str     0x000a97f8      0x341 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_cortex.o
+                              0x8f753 (size before relaxing)
+ .debug_str     0x000a9b39      0x32a Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma.o
+                              0x8f42a (size before relaxing)
+ .debug_str     0x000a9e63      0x1d0 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_gpio.o
+                              0x8f25a (size before relaxing)
+ .debug_str     0x000aa033      0xa34 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c.o
+                              0x8fe53 (size before relaxing)
+ .debug_str     0x000aaa67      0x35b Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc.o
+                              0x8f424 (size before relaxing)
+ .debug_str     0x000aadc2      0x1a2 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc_ex.o
+                              0x8f17a (size before relaxing)
+ .debug_str     0x000aaf64      0x4b6 Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc.o
+                              0x8f3e0 (size before relaxing)
+ .debug_str     0x000ab41a      0x68a Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_uart.o
+                              0x8f88d (size before relaxing)
+ .debug_str     0x000abaa4      0x8ff Example\User\DemoSerial.o
+                              0x988b9 (size before relaxing)
+ .debug_str     0x000ac3a3      0x133 Example\User\com.o
+                              0x98ae2 (size before relaxing)
+ .debug_str     0x000ac4d6       0x4b Example\User\cube_hal_f4.o
+                              0x9866c (size before relaxing)
+ .debug_str     0x000ac521     0x1678 Example\User\main.o
+                              0x9b9af (size before relaxing)
+ .debug_str     0x000adb99      0x23f Example\User\sensor_commands.o
+                              0x98d87 (size before relaxing)
+ .debug_str     0x000addd8       0x60 Example\User\serial_protocol.o
+                               0x3620 (size before relaxing)
+ .debug_str     0x000ade38       0x41 Example\User\stm32f4xx_hal_msp.o
+                              0x98ee2 (size before relaxing)
+ .debug_str     0x000ade79       0xa0 Example\User\stm32f4xx_it.o
+                              0x98232 (size before relaxing)
+ .debug_str     0x000adf19     0x11b3 Example\User\syscalls.o
+                               0x813f (size before relaxing)
 
 .comment        0x00000000       0x7c
  .comment       0x00000000       0x7c Drivers\BSP\Components\HTS221_Driver.o
